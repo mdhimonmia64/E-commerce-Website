@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar start  -->
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/shwapno_logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product-details.html">Product-Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My Account</a></li>
+                            <li class="nav-item">
+              <a class="nav-link" href="wishlish.html"
+                >Wishlist</a
+              >
+            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success design" type="submit">Search</button>
+                </form>
+                <a href="" class=" btn btn-outline-success  design ms-2 d-block mt-2 mt-lg-0"> Add to Cart</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end  -->
+
+    <section class="container">
+        <div class="py-3">
+            <h2 class="text-center"><span
+                    class="border border-dark border-3 border-top-0 border-end-0 border-start-0 ">Signup</span>
+            </h2>
+    </section>
+
+    <!-- form start -->
+    <section class="container">
+        <form class="row g-3" onsubmit="submitform()">
+            <div class="col-md-12">
+                <label for="inputFirstName" class="form-label">FirstName</label>
+                <input type="text" class="form-control" id="inputFirstName" name="FirstName" required>
+            </div>
+            <div class="col-md-12">
+                <label for="inputLastName" class="form-label">LastName</label>
+                <input type="text" class="form-control" id="inputLastName" name="LastName">
+            </div>
+            <div class="col-12">
+                <label for="inputPhone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="inputPhone" name="Phone" maxlength="11" minlength="11">
+            </div>
+            <div class="col-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" name="Email">
+            </div>
+            <div class="col-12">
+                <label for="inputUserName" class="form-label">UserName</label>
+                <input type="text" class="form-control" id="inputUserName" name="UserName">
+            </div>
+            <div class="col-12">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword" name="Password">
+            </div>
+
+
+
+
+            <div class="col-12 py-3">
+                <button type="submit" class="btn btn-primary d-block w-100">Sign Up</button>
+            </div>
+        </form>
+    </section>
+    <!-- form end -->
+
+
+
+
+
+  <!-- footer start -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h4>Information</h4>
+          <a href="https://www.shwapno.com/Office-Address" target="_blank">Office Address</a>
+          <a href="https://www.shwapno.com/ShippingInfo" target="_blank">Shipping</a>
+          <a href="https://www.shwapno.com/AboutUs" target="_blank">About Us</a>
+        </div>
+
+        <div class="footer-box">
+          <h4>Customer Service</h4>
+          <a href="https://www.shwapno.com/ContactUs-2" target="_blank">Contact Us</a>
+          <a href="https://www.facebook.com/Shwapno.ACILL/" target="_blank">Facebook</a>
+        </div>
+
+        <div class="footer-box">
+          <h4>My Account</h4>
+          <img src="img/nagod.png" alt="payment Methods">
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

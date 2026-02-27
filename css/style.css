@@ -1,0 +1,77 @@
+.navbar img{
+    width:60px;
+}
+.nav-link{
+    color:blue;
+}
+
+.nav-link:hover{
+    color:brown;
+}
+
+.nav-link.active:hover{
+    color:brown;
+}
+.design{
+   background-color: blueviolet;
+    color:blue;
+}
+.design:hover{
+    color:rgb(93, 18, 143);
+
+}
+
+.text-justify{
+    text-align: justify;
+}
+.showcase{
+ overflow:hidden;
+ text-align: center;
+ height: 350px;
+}
+.showcase img{
+    transition:0.5s;
+    cursor: pointer;
+}
+.showcase img:hover{
+    transform:scale(1.3);
+}
+.card-container{
+      display: flex;
+      gap: 12px;  
+      justify-content: center;
+      flex-wrap: wrap;   
+    }
+
+.card{
+    width: 100%;;
+    height: 400px;
+}
+
+.footer{
+  background: #1daace;
+  color: white;
+  padding: 30px 20px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap; 
+}
+
+.footer-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-box a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-box a:hover{
+  color: orange;
+}

@@ -1,0 +1,1216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/shwapno_logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product-details.html"
+                >Product-Details</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">My Account</a></li>
+                <li>
+                  <a class="dropdown-item" href="wishlish.html">Wishlist</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success design" type="submit">
+              Search
+            </button>
+          </form>
+          <a
+            href=""
+            class="btn btn-outline-success design ms-2 d-block mt-2 mt-lg-0"
+          >
+            Add to Cart</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- banner start -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="mastercard.html"
+            ><img src="img/banner1.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="campaing.html"
+            ><img src="img/banner2.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <a href="ramadan.html">
+            <img src="img/banner3.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="img/banner4.webp" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <a href="unilever.html">
+            <img src="img/banner5.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <a href="acifoods.html"
+            ><img src="img/banner6.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- banner end -->
+
+    <!-- New Products Section start -->
+    <section class="container-fluid">
+      <div>
+        <h2 class="text-center py-3">
+          <span
+            class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+            >Best Sellers</span
+          >
+        </h2>
+        <div class="card-container">
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img
+                src="img/Egg-Loose_1_415.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Egg</h6>
+                <p class="card-text">10 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image5.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Kacha Kola</h6>
+                <p class="card-text">12 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image8.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Shosha</h6>
+                <p class="card-text">65 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image10.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Angelic Air Freshener</h6>
+                <p class="card-text">110 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image12.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Surf Excel</h6>
+                <p class="card-text">140 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image45.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Impel Premium Comforter</h6>
+                <p class="card-text">2,016 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- best seller section end -->
+
+    <!-- New product start -->
+    <section class="container-fluid">
+      <div>
+        <h2 class="text-center py-3">
+          <span
+            class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+            >New Products</span
+          >
+        </h2>
+        <div class="card-container">
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image3.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">ACI Pure Turmeric</h6>
+                <p class="card-text">17 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image9.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Ispahani Mirzapore Bestleaf</h6>
+                <p class="card-text">11 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image73.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Fomax Premium Comforter</h6>
+                <p class="card-text">13 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image11.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Vaseline Healthy</h6>
+                <p class="card-text">19 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image7.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Zerocal Tablet</h6>
+                <p class="card-text">13 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image4.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Parachute Body & Hair Baby Wash</h6>
+                <p class="card-text">16 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New product end -->
+
+    <div>
+      <section>
+        <div data-bs-interval="2000">
+          <img src="img/hjfghfh.webp" class="d-block w-100" alt="..." />
+        </div>
+        <h2 class="text-center py-3">
+          <span
+            class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+            >Fresh Vegetables</span
+          >
+        </h2>
+        <div class="card-container pb-3">
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image2.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Mishti Kumra</h6>
+                <p class="card-text">40 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image3.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Kolmi Shak</h6>
+                <p class="card-text">20 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image5.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Kacha Kola</h6>
+                <p class="card-text">12 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+             <div class="showcase">
+               <img src="img/image6.webp" class="card-img-top" alt="..." />
+             </div>
+              <div class="card-body">
+                <h6 class="card-title">Dherosh</h6>
+                <p class="card-text">90 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image7.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Potol</h6>
+                <p class="card-text">80 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="card" style="width: 18rem">
+              <div class="showcase">
+                <img src="img/image8.webp" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Shosha</h6>
+                <p class="card-text">35 BDT</p>
+                <a href="#" class="btn btn-primary">Add To Bag</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="text-center py-3">
+        <span
+          class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+          >Everyday Essentials – All in One Place</span
+        >
+      </h2>
+      <div class="card-container pb-3">
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/im1.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Noah Blender</h6>
+              <p class="card-text">1,899 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im2.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Water Bottle</h6>
+              <p class="card-text">170 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im3.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Zaman Remote</h6>
+              <p class="card-text">580 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im4.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Sepnil Face Mask</h6>
+              <p class="card-text">330 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/im5.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Mosquito Net</h6>
+              <p class="card-text">485 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im6.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Sparkle RDF 6in</h6>
+              <p class="card-text">1430 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im7.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Premium Comforter</h6>
+              <p class="card-text">2,077 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im8.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Kazi Farm Kitchen</h6>
+              <p class="card-text">250 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/im9.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Zerocal Sachet</h6>
+              <p class="card-text">90 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/im10.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Supta Note Book</h6>
+              <p class="card-text">99 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/im11.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Amanat Shah Lungi</h6>
+              <p class="card-text">830 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/im12.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">SS Standard Bed Sheet</h6>
+              <p class="card-text">870 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div data-bs-interval="2000">
+        <img src="img/banner_D_1552.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <h2 class="text-center py-3">
+        <span
+          class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+          >Unilever Week</span
+        >
+      </h2>
+      <div class="card-container pb-3">
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Rin.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Mishti Kumra</h6>
+              <p class="card-text">40 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/vim.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Vim Dishwash Liquid</h6>
+              <p class="card-text">226 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/surfExcel.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Surf Excel</h6>
+              <p class="card-text">222 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/WheelLaundry.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Wheel Laundry Soap</h6>
+              <p class="card-text">28 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Wheel.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Wheel 2in1 Clean</h6>
+              <p class="card-text">236 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Domex.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Domex Ocean Fresh Toilet Cleaner</h6>
+              <p class="card-text">90 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-center py-3">
+        <span
+          class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+          >Snacks, Noodles & More</span
+        >
+      </h2>
+      <div class="card-container pb-3">
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/R100.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Ruchi Chananchur Hot</h6>
+              <p class="card-text">100 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Ru65.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Ruchi Muri</h6>
+              <p class="card-text">65 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Go240.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Golden Harvest Chicken Nuggets</h6>
+              <p class="card-text">240 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Ruchi100.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Ruchi Bbq Chanachur</h6>
+              <p class="card-text">100 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/jhat280.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Jhatpot Deshi Paratha 20Pcs</h6>
+              <p class="card-text">280 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/Bombay150.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Bombay Sweets Chanachur</h6>
+              <p class="card-text">150 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div data-bs-interval="2000">
+        <img src="img/wishtbanner.png" class="d-block w-100" alt="..." />
+      </div>
+      <h2 class="text-center py-3">
+        <span
+          class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+          >Home & Kitchen</span
+        >
+      </h2>
+      <div class="card-container pb-3">
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w1.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Kiam Casserole With Glass Lid</h6>
+              <p class="card-text">2,350 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase"> 
+              <img src="img/w2.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Kiam Karai With Glass Lid</h6>
+              <p class="card-text">1,380 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w3.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Kiam Frypan With Glass Lid</h6>
+              <p class="card-text">1,163.65 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w4.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Kiam Dosa Tawa</h6>
+              <p class="card-text">967.30 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w5.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">WB Storage Container 4Pcs</h6>
+              <p class="card-text">315 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w6.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Lock & Tigh Container</h6>
+              <p class="card-text">138 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w7.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">SS Standard Bed Sheet</h6>
+              <p class="card-text">650 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w8.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Amanat Shah Poripati Gamcha</h6>
+              <p class="card-text">363 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w9.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">AC LED 10W DL Bulb</h6>
+              <p class="card-text">795 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w10.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">2 Pin 3S Smart Extension Socket</h6>
+              <p class="card-text">555 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w11.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">AC LED 20W Day Light Bulb B22 Orlee</h6>
+              <p class="card-text">395 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+           <div class="showcase">
+             <img src="img/w12.webp" class="card-img-top" alt="..." />
+           </div>
+            <div class="card-body">
+              <h6 class="card-title">Super Star AC LED Eye Safe 09W Bulb</h6>
+              <p class="card-text">490 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w13.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Multi Travel Adapter</h6>
+              <p class="card-text">250 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w14.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">SS PVC Tape 10Y Black 0.15MM</h6>
+              <p class="card-text">29 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <div class="showcase">
+              <img src="img/w15.webp" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Lacy's Aluminium Foil</h6>
+              <p class="card-text">350 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/w16.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Diamond Aluminium Foil Paper</h6>
+              <p class="card-text">280 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/w17.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">ICE TRAY-2264 2Pcs Set</h6>
+              <p class="card-text">160 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/w18.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Partex Cleen Hand Towel</h6>
+              <p class="card-text">65 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/w19.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Bashundhara Kitchen Towel Single Pack</h6>
+              <p class="card-text">70 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/w20.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Marino Water Bottle</h6>
+              <p class="card-text">125 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Fet Food -->
+     <section>
+      <div data-bs-interval="2000">
+        <img src="img/biral.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <h2 class="text-center py-3">
+        <span
+          class="border border-3 border-dark text-danger border-end-0 border-start-0 border-top-0"
+          >Pet Care</span
+        >
+      </h2>
+      <div class="card-container pb-3">
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b1.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">cat Food</h6>
+              <p class="card-text">350 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b2.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Smart Heart Sardine with Chicken Jelly</h6>
+              <p class="card-text">380 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b3.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Whiskas Junior Tuna Cat Food</h6>
+              <p class="card-text">163.65 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b4.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">SmartHeart S.Salmon Jelly C.Food</h6>
+              <p class="card-text">367.30 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b5.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Whiskas Chicken&Tuna</h6>
+              <p class="card-text">1,315 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b6.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Sheba Tuna and Prawn In Gravy</h6>
+              <p class="card-text">238 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b7.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">CP Petindo Cleo A.Cat Food Chicken </h6>
+              <p class="card-text">750 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b8.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">SmartHeart Tuna Ckn.in Jelly C.Food</h6>
+              <p class="card-text">163 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b9.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Sheba Succulent C.Breast In Gravy</h6>
+              <p class="card-text">295 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b10.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Smart Heart Dog Food Chicken & Liver</h6>
+              <p class="card-text">355 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b11.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">SmartHeart Adult Tuna in Jelly</h6>
+              <p class="card-text">315 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b12.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Super Star AC LED Eye Safe 09W Bulb</h6>
+              <p class="card-text">490 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b13.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Whiskas Grilled Saba Cat Food </h6>
+              <p class="card-text">150 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b14.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">CP Petindo Cleo A.Cat Food Tuna</h6>
+              <p class="card-text">729 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b15.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Whiskas Chicken&Tuna</h6>
+              <p class="card-text">1,350 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b16.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">SmartHeart Lamb</h6>
+              <p class="card-text">380 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b17.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">SmartHeart Chicken R.&Carrot C.Food</h6>
+              <p class="card-text">130 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="card" style="width: 18rem">
+            <img src="img/b18.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">Smart Heart Adult Salmon Cat Food</h6>
+              <p class="card-text">465 BDT</p>
+              <a href="#" class="btn btn-primary">Add To Bag</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h4>Information</h4>
+          <a href="https://www.shwapno.com/Office-Address" target="_blank"
+            >Office Address</a
+          >
+          <a href="https://www.shwapno.com/ShippingInfo" target="_blank"
+            >Shipping</a
+          >
+          <a href="https://www.shwapno.com/AboutUs" target="_blank">About Us</a>
+        </div>
+
+        <div class="footer-box">
+          <h4>Customer Service</h4>
+          <a href="https://www.shwapno.com/ContactUs-2" target="_blank"
+            >Contact Us</a
+          >
+          <a href="https://www.facebook.com/Shwapno.ACILL/" target="_blank"
+            >Facebook</a
+          >
+        </div>
+
+        <div class="footer-box">
+          <h4>My Account</h4>
+          <img src="img/nagod.png" alt="payment Methods" />
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
