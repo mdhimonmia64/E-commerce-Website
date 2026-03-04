@@ -75,3 +75,11 @@
 .footer-box a:hover{
   color: orange;
 }
+
+.sir{
+    background-color: #52a4f1;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 15px;
+}
